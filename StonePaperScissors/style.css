@@ -1,0 +1,71 @@
+body {
+    font-family: "Poppins", serif;
+    font-style: normal;
+    background-color:rgb(132, 170, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 550px;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color:rgb(238, 206, 143);
+    color:black;
+    font-size: large;
+    font-weight: 500;
+}
+
+#guess{
+    display: block;
+}
+#guessField{
+    width: 200px;
+    height: 30px;
+    display: block;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+.submitGuess{
+    margin-top: 20px;
+    width: 150px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size:medium;
+}
+.submitGuess:hover{
+    background-color: rgb(44, 44, 44);
+    color: rgb(192, 238, 98);
+}
+#newGame{
+    
+    align-self: center;
+    margin-top: 40px;
+    width: 120px;
+    height: 30px;
+    background: aliceblue;
+    color:rgb(60, 0, 116);
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: medium;
+    /* border: none; */
+    outline: none;
+    border-color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+#newGame:hover{
+    background-color:rgb(68, 20, 114);
+    color: white;
+}

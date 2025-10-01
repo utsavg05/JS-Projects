@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess a number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <h1>STONE | PAPER | SCISSORS </h1>
+        <P>Lets play stone, paper and scissors game</P>
+        <p>Enter your input ("s" for stone or "p" for paper or "k" for scissors)</p>
+        <form class="form">
+            <label for="guessField" id="guess"><h2>Enter your input </h2></label>
+            <input type="text" id="guessField">
+            <input type="submit" id="subt" value="Submit guess" class="submitGuess">
+        </form>
+
+        <div class="resultpara">
+            
+            <p class="gameResult"></p>
+            <input type="button" id="newGame" value="New Game">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
