@@ -1,4 +1,4 @@
-const url = "https://api.dictionaryapi.dev/api/v2/entries/en/"
+const url = ""
 
 const result = document.querySelector(".results")
 const btn = document.querySelector("#search-btn")
